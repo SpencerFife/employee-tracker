@@ -5,9 +5,10 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
-    "inquirer": "^7.0.4",
+    "inquirer": "^7.1.0",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "util": "^0.12.3"
   },
   "devDependencies": {},
   "scripts": {
