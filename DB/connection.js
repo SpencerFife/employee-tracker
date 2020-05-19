@@ -14,6 +14,6 @@ connection.connect((err) => {
   if (err) throw err;
 });
 
-connection.query = util.promisify(connecton.query);
+connection.query = util.promisify(connection.query);
 
 module.exports = connection;
